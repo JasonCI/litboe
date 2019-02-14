@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jason's resume</title>
+</head>
+<style>
+    body {
+        background-color: #eeeeee;
+        margin: 0;
+        padding: 0;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .resume {
+        background-color: white;
+        width: 800px;
+        max-width: 800px;
+        margin: auto;
+        /*padding: 30px;*/
+    }
+
+    .resume .item {
+        border-bottom: 5px solid #eeeeee;
+        padding: 15px 30px;
+    }
+
+    .content-title {
+        display: flex;
+        margin: 10px -30px;
+        font-size: larger;
+        background-color: aliceblue;
+        padding: 10px 25px;
+    }
+
+    .content-title .label {
+        width: 78%;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .container {
+        margin: 10px 0;
+    }
+
+    .container .title {
+        width: 80px;
+        color: grey;
+    }
+
+    .container .info {
+        font-size: larger;
+        width: 88%;
+        /*font-weight: bolder;*/
+    }
+
+    .container ol, ul {
+        margin: 0;
+        padding: 0 13px;
+    }
+
+    .container li {
+        margin-bottom: 8px;
+    }
+
+    h2::before {
+        content: "";
+        border-left: 6px solid #21b8f5;
+        margin-left: -30px;
+        padding-right: 16px;
+    }
+
+    .info a {
+        text-decoration: none;
+        color: #21b8f5;
+    }
+</style>
+<body>
+<div class="resume">
+    <div class="item">
+        <h2>个人资料</h2>
+        <div class="item-content">
+            <div class="container">
+                <div style="width: 50%">
+                    <span class="title">姓名：</span>
+                    <span class="info">陈杰</span>
+                </div>
+                <div>
+                    <span class="title">性别：</span>
+                    <span class="info">男</span>
+                </div>
+            </div>
+            <div class="container">
+                <div style="width: 50%">
+                    <span class="title">学历：</span>
+                    <span class="info">本科</span>
+                </div>
+                <div>
+                    <span class="title">意向：</span>
+                    <span class="info">web前端</span>
+                </div>
+            </div>
+            <div class="container">
+                <div style="width: 50%">
+                    <span class="title">年龄：</span>
+                    <span class="info">28</span>
+                </div>
+                <div>
+                    <span class="title">年限：</span>
+                    <span class="info">3年8个月</span>
+                </div>
+            </div>
+            <div class="container">
+                <div style="width: 50%">
+                    <span class="title">电话：</span>
+                    <span class="info"><a href="tel:18501732926">185-0173-2926</a></span>
+                </div>
+                <div>
+                    <span class="title">邮箱：</span>
+                    <span class="info"><a href="mailto:jason_ci@icloud.com">jason_ci@icloud.com</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <h2>工作经历</h2>
+        <div class="item-content">
+            <div class="content-title">
+                <span class="label">上海快微网络科技有限公司(快课网)</span>
+                <span>2014/12 - 至今</span>
+            </div>
+            <div class="content-detail">
+                <p class="abstract" style="border-bottom: 1px dashed #eee;padding-bottom: 5px;font-size: larger">
+                    Saas平台,主要服务于企业内部培训.是一个以移动在线学习为卖点的平台.主要有后台管理及学员端学习两大块.以企业微信套件应用,微信公众号二次开发,阿里钉钉套件应用为主要入口,推崇便捷微学习.
+                </p>
+                <div class="container">
+                    <div class="title">所任职务 :</div>
+                    <div class="info">web前端</div>
+                </div>
+                <div class="container">
+                    <div class="title">所属部门 :</div>
+                    <div class="info">开发部</div>
+                </div>
+                <div class="container">
+                    <div class="title">汇报对象 :</div>
+                    <div class="info">技术负责人</div>
+                </div>
+                <div class="container">
+                    <div class="title">工作职责 :</div>
+                    <ol class="info">
+                        <li>参与产品评审,为产品设计,UI设计提出参考意见.</li>
+                        <li>参与web后台和移动端开发,包括新功能跟进,bug修复,代码整理及优化.</li>
+                        <li>帮助小组成员review代码,提供代码优化改善建议.</li>
+                        <li>技术选型及重构</li>
+                    </ol>
+                </div>
+                <div class="container" style="border-bottom: 1px dashed #eee;">
+                    <div class="title">工作业绩 :</div>
+                    <ol class="info">
+                        <li> 为产品新功能提出合理改善建议,避免后期反复返工.</li>
+                        <li> 及时进行现有代码修复及优化,整洁代码,减小维护成本,同时提高客户满意度</li>
+                    </ol>
+                </div>
+                <div class="container">
+                    <div class="title">所任职位 :</div>
+                    <div class="info">后端接口实现(Java)</div>
+                </div>
+                <div class="container">
+                    <div class="title">所属部门 :</div>
+                    <div class="info">开发部</div>
+                </div>
+                <div class="container">
+                    <div class="title">汇报对象 :</div>
+                    <div class="info">技术负责人</div>
+                </div>
+                <div class="container">
+                    <div class="title">工作职责 :</div>
+                    <ol class="info">
+                        <li>负责编写api接口,为前端提供合理的数据支持 .</li>
+                        <li>修复bug,优化代码</li>
+                    </ol>
+                </div>
+                <div class="container">
+                    <div class="title">工作业绩 :</div>
+                    <ol class="info">
+                        <li>负责整个功能模块时,前后端同时负责,有效提高了开发效率,减少沟通成本.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <h2>项目经历</h2>
+        <div class="item-content">
+            <div class="content-title">
+                <span class="label">上海快微网络科技有限公司-企业平台后台管理</span>
+                <span>2014/12 - 至今</span>
+            </div>
+            <div class="content-detail">
+                <div class="container">
+                    <div class="title">项目介绍 :</div>
+                    <ul class="info">
+                        <li>SaaS项目，主要针对企业培训搭建学习平台。为了满足高度可定制化的企业需求。后台较为复杂，涉及课件上传发布，用户管理，权限分配，考试/直播培训管理，数据统计分 析，H5
+                            页面编辑等几大模块。
+                        </li>
+                        <li>技术栈:Vue1.0+webpack+less+Bootstrap+jQuery+Java</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="title">项目指职责 :</div>
+                    <ol class="info">
+                        <li>主要负责按设计图还原出 web 页面。</li>
+                        <li>持续优化改进现有代码的结构,减小复杂度,以适应迭代速度。</li>
+                    </ol>
+                </div>
+                <div class="container">
+                    <div class="title">项目业绩 :</div>
+                    <ol class="info">
+                        <li>积极思考和实践了如何模块化自动化高效的进行代码优化和管理。</li>
+                        <li>抽离公共模块复用代 码，持续维护越来越庞大的代码库。</li>
+                        <li>使用 webpack进行代码拆分，按需加载以优化页面速度，节省流量。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="item-content">
+            <div class="content-title">
+                <span class="label">上海快微网络科技有限公司-学员移动端</span>
+                <span>2015/4 - 至今</span>
+            </div>
+            <div class="content-detail">
+                <div class="container">
+                    <div class="title">项目介绍 :</div>
+                    <ul class="info">
+                        <li>作为微信及钉钉的套件应用，主要在移动端呈现后台上传的课程课件和自定义的页面，还包括课件上传和移动支付，以及小部分后台管理功能。</li>
+                        <li>技术栈:Vue2.0+webpack+less+weui</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="title">项目职责 :</div>
+                    <ol class="info">
+                        <li>根据设计图还原页面,反馈页面的问题,进行优化改进。</li>
+                        <li>对接第三方jssdk(企业微信,微信公众号,阿里钉钉,在线文档解析,第三方视频服务)。</li>
+                        <li>优化改进加载速度</li>
+                    </ol>
+                </div>
+                <div class="container">
+                    <div class="title">项目业绩 :</div>
+                    <ol class="info">
+                        <li>通过代码压缩,代码分割,模块分块,模块按需加载有效提高首屏加载速度,首屏加载提高到1秒内。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="item-content">
+            <div class="content-title">
+                <span class="label">上海快微网络科技有限公司-移动端前端重构</span>
+                <span>2018/01 - 至今</span>
+            </div>
+            <div class="content-detail">
+                <div class="container">
+                    <div class="title">项目介绍 :</div>
+                    <ul class="info">
+                        <li>历史原因,移动端项目分为三套,分为企业微信,阿里钉钉,浏览器通用三个项目;造成代码重复率高,迭代升级繁复,所以决定将三版本合一。
+                        </li>
+                        <li>技术栈:Vue2.0+TypeScript2+webpack3.0+less+weui</li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <div class="title">项目指责 :</div>
+                    <ol class="info">
+                        <li>技术选型。</li>
+                        <li>架构设计优化。</li>
+                        <li>api接口修改 - 部分优化需后端接口配合。</li>
+                    </ol>
+                </div>
+                <div class="container">
+                    <div class="title">项目业绩 :</div>
+                    <ol class="info">
+                        <li>选用TypeScript + vue。</li>
+                        <li>抽离业务,提取公共接口,增加中间层，对微信钉钉及原生浏览器的接口进行统一，屏蔽差异。</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <h2>技能清单</h2>
+        <div class="container">
+            <div class="title">关键词 :</div>
+            <ul class="info">
+                <li>熟练 HTML、 CSS 的页面布局，能根据设计图完成页面制作。</li>
+                <li>熟练使用原生 JavaScript 及常用 JavaScript 库，如 jQuery，Moment.js。</li>
+                <li>熟练运用 Ajax 实现异步数据传递，熟悉 JSON 等数据交换格式。</li>
+                <li>能使用 java 编写接口，了解 PostgreSQL 数据库，会使用常用 Linux 命令。</li>
+                <li>熟练使用Bootstrap，WeUI，Swiper，element-UI等前端样式库和框架进行开发。</li>
+                <li>了解 http 协议，能够根据 http 请求报文、响应报文和状态码排查问题。</li>
+                <li>了解常用数据结构。</li>
+                <li>熟悉使用 Git 进行代码管理和版本控制。</li>
+                <li>熟悉微信公众号企业号及阿里钉钉套件对接。</li>
+                <li>熟练使用 Chrome，IntelliJ IDEA，VS Code，Sublime，Charles 等编码调试工具。</li>
+            </ul>
+        </div>
+    </div>
+    <div class="item">
+        <h2>教育经历</h2>
+        <div class="item-content">
+            <div class="container" style="font-size: larger">
+                <span style="width: 25%">西安工程大学</span>
+                <span style="width: 25%">机械工程及自动化</span>
+                <span style="width: 25%">本科(统招)</span>
+                <span style="width: 25%">2009/09 - 2013/07</span>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+        <h2>自我评价</h2>
+        <div class="container">
+            <div class="title">简评 :</div>
+            <ol class="info">
+                <li>工作处事耐心、细心、尽职尽责。</li>
+                <li>待人接物平和、随和、善于协作。</li>
+                <li>对新事物热情、好奇、敢于尝试。</li>
+            </ol>
+        </div>
+    </div>
+</div>
+</body>
+</html>
